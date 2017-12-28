@@ -1,0 +1,26 @@
+<aside class="col-md-2 col-sm-3 side-nav no-padd" [ngClass]="{'active col-md-12':isActive , 'header user-name-alpha': !isActive}">
+    <div class="toggle-side-nav Desktop_vie_opt" (click)="toggleAside()">
+        <i class="ion ion-navicon-round"></i>
+    </div>
+    <div class="user-details col-sm-12">
+        <div class="header" *ngIf="!isActive;else userHead"> 
+            <span class="header-text">Hi </span> <span class="user-name">{{ userName }}</span>
+        </div>
+        
+        <ng-template #userHead>
+            <span class="user-name-alpha">{{userNameFirstChar}}
+                </span>
+        </ng-template>
+        <div class="caption">(b member)</div>
+    </div>
+    <div class="left-menu-container col-sm-12 no-padd">
+        <ul class="left-menu">
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="./assets/images/icons/side-icon-1.png" alt=""/>
+                    <span>our company</span>
+                </a>
+            </li>            
+        </ul>
+    </div>
+</aside>

@@ -1,0 +1,138 @@
+.navbar-default{
+    background-image: none;
+    border-radius:0px;
+    box-shadow:none;
+    background-color:#333230;
+    border-color:#333230;
+    padding: 4px;
+}
+.navbar-header{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -11px !important;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px;
+    line-height: 20px;
+    margin-top: -5px;
+    width:100%;
+    overflow: hidden;
+}
+.navbar-brand img {
+   /* height: 60px;*/
+    margin: 16px auto;
+}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li:hover > a{
+    color:#fff;
+    border-left:1px solid #52514d;
+    height: 60px;
+}
+.navbar-default .navbar-nav.navbar-left > li > a{
+    font-size: 25px;
+    font-weight: 100;
+}
+.navbar-default .top-icons img{
+   /* height: 32px;*/
+    margin:0 auto;
+}
+.navbar-nav > li.top-icons > a{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+@media (max-width:767px){
+    
+    .sdp_title{
+        margin-top: -6px !important;
+    }
+    
+    .mobile_edit {
+    position: relative;
+    top: -100px;
+}
+    
+    
+    
+    .navbar-left{
+        float: left;
+    }
+    .navbar-right{
+        float: right;
+    }
+    
+    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li:hover > a {
+    color: #fff;
+    border: 0px;
+    height: 30px;
+        margin-top: -10px;
+}
+    
+    
+.mobile_view_opt {
+    display: block !important;
+    position: absolute;
+    z-index: 9999999;
+    color: #fff;
+    font-size: 31px;
+}
+    
+    .mobile_view_opt > .ion-navicon-round {
+    font-size: 24px !important;
+    width: 50px;
+    padding: 15px 10px;
+    height: 2px !important;
+}
+    
+   
+    .Desktop_vie_opt{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    ul.navbar-right li {
+    display: inline;
+    width: 63px;
+    float: left;
+}
+    .navbar-default .top-icons img {
+    height: 32px;
+    margin: 0 auto;
+}
+    .navbar-default .navbar-nav.navbar-left > li > a {
+    font-size: 18px;
+    font-weight: 100;
+}
+    
+    .mobile_view_lang{
+        display: block !important;
+    }
+    .navbar-brand{
+        /*margin-top:-55px;*/
+    }
+    .navbar-brand {
+    float: left;
+    /* height: 50px; */
+    padding: 0px;
+    /* line-height: 20px; */
+    /* margin-top: -5px; */
+    width: 100%;
+    /* overflow: hidden; */
+}
+    
+    .navbar-brand img {
+    margin: 6px auto;
+    position: relative;
+    z-index: 9999999;
+}
+    
+}
+
+
+
+
+
+  
+

@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="col-md-2 col-sm-3 navbar-header">
+        <div class="toggle-side-nav mobile_view_opt" (click)="toggleAside()">
+        <i class="ion ion-navicon-round"></i>
+    </div>
+      <a class="navbar-brand" href="javascript:void(0);">
+          <img src="./assets/images/site_logo.png" alt="Sedex Logo" />
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse mobile_view_lang" [collapse]="isCollapsed">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="javascript:void(0);">Supplier Directory Portal</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="top-icons">
+            <a href="javascript:void(0);">
+                <img src="./assets/images/icons/top-icon-1.png" alt="top-icon" />
+            </a>
+        </li>
+        <li class="top-icons">
+            <a href="javascript:void(0);">
+                <img src="./assets/images/icons/top-icon-2.png" alt="top-icon" />
+            </a>
+        </li>
+        <li class="top-icons">
+            <a href="javascript:void(0);">
+                <img src="./assets/images/icons/top-icon-3.png" alt="top-icon" />
+            </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
